@@ -1,0 +1,45 @@
+
+A)	importjava.util.*;
+class Rectangle
+{     
+	int length,width;
+	Rectangle()
+	{
+		length=10;
+		width=20;
+	}
+	void area()
+	{
+		System.out.println("area="+(length*width));
+	}
+	public static void main(String args[])
+	{
+		Rectangle ob1=new Rectangle();
+		ob1.area();
+	}
+}	
+ 	
+
+
+//B)
+
+importjava.util.*;
+class Rectangle1
+{     
+	intl,w;
+	Rectangle1(int length, int width)
+	{
+		 l=length;
+		 w=width;
+	}
+	void area()
+	{
+		System.out.println("area="+(l*w));
+	}
+	public static void main(String args[])
+	{
+		Rectangle1 ob1=new Rectangle1(10,20);
+		ob1.area();
+	}
+}	
+ 	
