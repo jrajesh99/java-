@@ -1,5 +1,5 @@
-
-A)	importjava.util.*;
+//A)	
+importjava.util.*;
 class Rectangle
 {     
 	int length,width;
